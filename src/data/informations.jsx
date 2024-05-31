@@ -140,7 +140,7 @@ export const projects =[
         img:weatherapp,
         tags:["JavaScript","HTML","CSS","BOOTSTRAP"],
         category:"web app",
-        github:"https://github.com/KshitizRajan7/weatherapp",
+        github:"https://KshitizRajan7.github.io/weatherapp",
         webapp:"zxc",
         // member:[
         //     {
@@ -159,13 +159,13 @@ export const projects =[
     },
     {
         id:1,
-        title:"Calculator App",
+        title:"Portfolio",
         date:"2023-2024",
-        description:"Performs basic mathematical calculations.",
-        img:calculatorapp,
+        description:"Porfolio that provides information about the user.",
+        img:porfolio,
         tags:["JavaScript","HTML","CSS","BOOTSTRAP"],
-        category:"Web App",
-        github:"https://github.com/KshitizRajan7/Calculator",
+        category:"web app",
+        github:"https://KshitizRajan7.github.io/demoPortfolio",
         webapp:"zxc"
     },
     {
@@ -176,11 +176,22 @@ export const projects =[
         img:cartapp,
         tags:["JavaScript","HTML","CSS","BOOTSTRAP"],
         category:"web app",
-        github:"https://github.com/KshitizRajan7/cartapp",
+        github:"https://KshitizRajan7.github.io/cartapp",
         webapp:"zxc"
     },
     {
         id:3,
+        title:"Calculator App",
+        date:"2023-2024",
+        description:"Performs basic mathematical calculations.(in process..)s",
+        img:calculatorapp,
+        tags:["JavaScript","HTML","CSS","BOOTSTRAP"],
+        category:"Web App",
+        github:"https://github.com/KshitizRajan7/Calculator",
+        webapp:"zxc"
+    },
+    {
+        id:4,
         title:"Ecommerce App",
         date:"2023-2024",
         description:"In process..",
@@ -188,17 +199,6 @@ export const projects =[
         tags:["JavaScript","HTML","CSS","BOOTSTRAP"],
         category:"web app",
         github:"https://github.com/KshitizRajan7/Ecommerce",
-        webapp:"zxc"
-    },
-    {
-        id:4,
-        title:"Portfolio",
-        date:"2023-2024",
-        description:"Porfolio that provides information about the user.",
-        img:porfolio,
-        tags:["JavaScript","HTML","CSS","BOOTSTRAP"],
-        category:"web app",
-        github:"https://github.com/KshitizRajan7/Calculator",
         webapp:"zxc"
     },
     {
