@@ -165,7 +165,7 @@ export const projects =[
         img:porfolio,
         tags:["JavaScript","HTML","CSS","BOOTSTRAP"],
         category:"web app",
-        github:"https://KshitizRajan7.github.io/demoPortfolio",
+        github:"https://KshitizRajan7.github.io/portfolio",
         webapp:"zxc"
     },
     {
