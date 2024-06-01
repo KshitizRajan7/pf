@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Card =styled.a`
-    widht: 330px;
+    width: 330px;
     height:490px;
     background-color: rgba(0,0,0,0.1);
     cursor: pointer;
@@ -22,6 +22,16 @@ const Card =styled.a`
         box-shadow: 0 0 50px 4px rgba(255, 255, 255, 0.2);
         filter: brightness(1.1);
     }
+
+    @media (max-width: 760px){
+    width: 150px;
+    height:250px;
+    border-radius: 5px;
+    overflow:hidden;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration:none;
+    }
 `;
 
 const ImageContainer = styled.div`
@@ -35,6 +45,10 @@ const Image= styled.img`
     width: 300px;
     heigth:300px;
     object-fit: cover;
+    @media (max-width: 760px){
+        width: 90px;
+        heigth: 90px;
+    }
 `;
 
 const Details= styled.div`
@@ -52,13 +66,18 @@ const Members = styled.div`
 `;
 
 const Tags = styled.div`
-    widht:100%;
+    width:100%;
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
     gap: 8px;
     margin-top:4px;
     align-item:center;
+
+    @media(max-width:760px){
+        width:100%;
+        gap:1px;
+    }
 `;
 
 const Tag = styled.span`
@@ -68,6 +87,12 @@ const Tag = styled.span`
     background-color: ${({theme})=> theme.black+50};
     padding: 2px 8px;
     border-radius: 10px;
+    @media(max-width:760px){
+        font-size:10px;
+        font-weight:100;
+        padding: 1px 4px;
+        border-radius: 5px;
+    }
 `;
 
 const Title = styled.div`
@@ -80,6 +105,10 @@ const Title = styled.div`
     max-width:100%;
     -webkit-line-clamp:2;
     -webkit-box-orient: vertical;
+    @media (max-width:760px){
+        font-size:12px;
+        font-weight: 400;
+    }
 `;
 
 const Date = styled.div`
@@ -88,8 +117,8 @@ const Date = styled.div`
     margin-left: 2px;
     color: ${({theme})=> theme.textSecondary+80};
 
-    @media (max-width: 768px){
-        font-size: 10px;
+    @media (max-width: 760px){
+        font-size: 9px;
     }
 `;
 
@@ -103,6 +132,11 @@ const Description = styled.div`
     -webkit-box-orient: vertical;
     display: -webkit-box;
     margin-top: 8px;
+
+    @media (max-width:760px){
+        font-weight: 200;
+        font-size:10px;
+    }
 `;
 
 const Member =styled.div`

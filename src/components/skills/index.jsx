@@ -63,21 +63,21 @@ const SkillsContainer =styled.div`
   margin-top:30px;
   margin-bottom:30px;
   justify-content:center;
-  gap: 30px;
+  gap: 10px;
 `;
 
 const Skill = styled.div`
  width:350px;
  height:350px;
-
+ overflow:auto;
  background-color: rgba(0, 0, 0, 0.1);
  border: 0.1px solid ${({theme})=>theme.textPrimary + 80};;
  border-radius: 16px;
  padding: 18px 36px;
 
- @media (max-width:768px){
-  max-width:4400px;
-  padding: 10px 36px;
+ @media (max-width:760px){
+  width:150px;
+ height:150px;
  }
  
  @media (max-width:500px){
@@ -92,6 +92,10 @@ const SkillTitle = styled.h2`
  color:  ${({theme})=>theme.textSecondary};
  margin-bottom: 20px;
  text-align: center;
+ @media (max-width: 760px){
+  font-size:15px;
+ font-weight: 400;
+ }
 `;
 
 const SkillList = styled.div`
@@ -114,20 +118,23 @@ const SkillItem=styled.div`
  padding : 12px 16px;
 Font-weight: 400; 
 
-@media (max-width:768px){
-  font-size:14px;
-  padding: 8px 12px;
- }
- 
- @media (max-width:500px){
-  font-size: 14px;
-  padding: 6px 12px;
+@media (max-width:760px){
+  gap:2px;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 8px;
  }
 `;
 
 const SkillImage = styled.img`
  width: 24px;
  height: 24px;
+
+ @media (max-width:760px){
+  width: 14px;
+  height: 14px;
+  
+ }
 `;
 
 const Skills = () => {

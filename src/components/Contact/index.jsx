@@ -111,9 +111,9 @@ box-shadow: 20px 20px 60px #1F2634, -20px -20px 60px #1F2634;
 }
 
 @media (max-width:760px){
-    width:55%;
+    width:30%;
     font-size:15px;
-font-weight:500;
+font-weight:250;
 }
 
 `;

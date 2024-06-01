@@ -3,6 +3,7 @@ import styled, { useTheme } from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import {Link, ScrollLink} from 'react-scroll'
 import github from '../../assets/Github.png'
+import { GiHamburgerMenu  } from 'react-icons/gi'
 // import {} from 'react-icons';s
 
  const Nav = styled.div`
@@ -133,19 +134,20 @@ const MobileMenu = styled.div`
   display:flex;
   flex-direction:column;
   justify-content:center;
+  align-items:center;
   gap:16px;
   position:absolute;
-  top:80;
+  top:80px;
   right: 0;
-  width : 100%
+  width : 50%;
   padding: 12px 40px 24px 40px;
-  background: ${({theme})=> theme.cardLight};
+  background: rgba(0,0,0,0.9);
   transition: all 0.3s ease-in-out;
   transform : ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
-  border-radius: 0 0 20 20px;
+  border-radius: 0 0 0px 20px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
   opacity:${({open})=> open ? '1' : '0'}; 
-  z-index:${({open})=> open ? '1' : '-1'}; 
+  z-index:${({open})=> open ? '1' : '0'}; 
 `;
 
 const MobileMenuLinks =styled(Link)`
@@ -153,10 +155,6 @@ const MobileMenuLinks =styled(Link)`
   font-weight: 500;
   cursor: pointer;
   text-decoration:none;
-  transition: all 0.2s ease-in-out;
-  &:hover{
-    color:${({theme})=> theme.primary};
-  }
 `;
 
 
@@ -196,11 +194,11 @@ const Navbar = () => {
       }}/> <Span>Portfolio</Span>
       </NavLogo>
       <MobileIcon>
-        <div
+        <GiHamburgerMenu 
           onClick={()=>{
-            setOpen(!open);
+            setOpen(!Open);
           }}
-        />
+          />
       </MobileIcon>
       <NavItems>
       <NavLink activeClass='active' to='about' spy={true} smooth={true} offset={-80} duration={500}>About</NavLink>

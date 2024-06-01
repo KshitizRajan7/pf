@@ -3,13 +3,18 @@ import styled from "styled-components";
 import ReactPlayer from "react-player";
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-  align-items: center;
-  width: 100%;
+  
+`;
+
+const ReactPlayerComponent = styled.div`
+display: flex;
+justify-content:center;
+z-index-1;
+width:100%;
+@media (max-width:760px){
+  padding: 5%;
+  width:100%;
+}
 `;
 
 const Title = styled.div`
@@ -30,10 +35,12 @@ const LatestVideo = () => {
   return (
     <Container id="latestVideo">
       <Title>Latest Video</Title>
+      <ReactPlayerComponent>
       <ReactPlayer
         controls={true} 
         url="https://youtu.be/R6ZK2AYnvdk?si=bijoRQocXEW483I2"
       />
+      </ReactPlayerComponent>
     </Container>
   );
 };

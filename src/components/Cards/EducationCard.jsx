@@ -19,7 +19,7 @@ const Card = styled.div`
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   padding: 12px 16px;
   justify-content: space-between;
-  postion: relative;
+  position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -34,10 +34,11 @@ const Card = styled.div`
     display:flex;
   } 
 
-  @media (max-width : 768px){
+  @media (max-width : 760px){
+    width:250px;
     padding: 10px;
-    gap: 8px;
-    width:100%;
+    gap: 1px;
+
   }
   border: 1px solid ${({ theme }) => theme.white+80};
   box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 24px;
