@@ -217,7 +217,6 @@ const Navbar = () => {
         <MobileMenu open={Open}>
         <MobileMenuLinks  activeClass='active' to='about' spy={true} smooth={true} offset={-80} duration={500}  onClick={()=>{setOpen(!Open);}}>About</MobileMenuLinks>
         <MobileMenuLinks  activeClass='active' to='skills' spy={true} smooth={true} offset={-80} duration={500}  onClick={()=>{setOpen(!Open);}}>Skills</MobileMenuLinks>
-        <MobileMenuLinks  activeClass='active' to='experience' spy={true} smooth={true} offset={-80} duration={500}  onClick={()=>{setOpen(!Open);}}>Experience</MobileMenuLinks>
         <MobileMenuLinks  activeClass='active' to='projects' spy={true} smooth={true} offset={-80} duration={500} onClick={()=>{setOpen(!Open);}}>Projects</MobileMenuLinks>
         <MobileMenuLinks  activeClass='active' to='education' spy={true} smooth={true} offset={-80} duration={500} onClick={()=>{setOpen(!Open);}}>Education</MobileMenuLinks>
         <MobileMenuLinks  activeClass='active' to='contact' spy={true} smooth={true} offset={-80} duration={500} onClick={()=>{setOpen(!Open);}}>Contact</MobileMenuLinks>
