@@ -3,6 +3,7 @@ import styled from "styled-components";
 import ProjectCard from "../Cards/ProjectCard";
 import { projects } from "../../data/informations";
 const Container = styled.div`
+width:100%;
   background: linear-gradient(
     343.07deg,
     rgba(132,59,206,0.06)5.71%,

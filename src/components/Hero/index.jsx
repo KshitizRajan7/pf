@@ -23,6 +23,7 @@ to {
 `;
 
 const HeroContainer = styled.div`
+width:100%;
 background-color:#2C3E50;
 display:flex;
 justify-content:center;
@@ -183,10 +184,13 @@ const Image = styled.img`
   }
   `;
 
+  const Container = styled.div`
+    width:100%;
+  `;
 
 const Hero = () => {
   return (
-    <div id="about">
+    <Container id="about">
       <HeroContainer>
         <HeroBg></HeroBg>
         <HeroInnerContainer>
@@ -212,7 +216,7 @@ const Hero = () => {
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
-    </div>
+    </Container>
   );
 };
 

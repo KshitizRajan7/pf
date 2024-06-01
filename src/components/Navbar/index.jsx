@@ -138,8 +138,8 @@ const MobileMenu = styled.div`
   gap:16px;
   position:absolute;
   top:80px;
-  right: 0;
-  width : 50%;
+  right: ${({open}) => open ? '0' : '100%'};
+  width : ${({open}) => open ? '100vw' : '50%'};;
   padding: 12px 40px 24px 40px;
   background: rgba(0,0,0,0.9);
   transition: all 0.3s ease-in-out;

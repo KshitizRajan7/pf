@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ReactPlayer from "react-player";
 
 const Container = styled.div`
-  
+  width:100%;
 `;
 
 const ReactPlayerComponent = styled.div`
