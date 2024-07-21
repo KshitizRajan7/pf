@@ -19,6 +19,7 @@ import nodejs from '../../src/assets/nodejs.png'
 import expressjs from '../../src/assets/expressjs.png'
 import mysql from '../../src/assets/mysql.png'
 import mongodb from '../../src/assets/mongodb.png'
+import todolist from '../../src/assets/todolist.png'
 
 export const intro ={
     name:"Kshitiz Rajan",
@@ -132,6 +133,31 @@ export const skills=[
 // ]
 
 export const projects =[
+    {
+        id:10,
+        title:"TodoList",
+        date:"2023-2024",
+        description:"Todolist using Typescript, tailwindcss and nextjs",
+        img:todolist,
+        tags:["TypeScript","NextJS","TailwindCSS"],
+        category:"web app",
+        github:"https://todolist-1o61-git-master-kshitizrajan7s-projects.vercel.app/",
+        webapp:"zxc",
+        // member:[
+        //     {
+        //         name:"Kshitiz",
+        //         img:"zxc",
+        //         linkedin:"link",
+        //         github:"link"
+        //     },
+        //     {
+        //         name:"rajan",
+        //         img:"zxc",
+        //         linkedin:"link",
+        //         github:"link"
+        //     }
+        // ]
+    },
     {
         id:0,
         title:"Weather App",
