@@ -141,7 +141,7 @@ export const projects =[
         img:todolist,
         tags:["TypeScript","NextJS","TailwindCSS"],
         category:"web app",
-        github:"https://todolist-1o61-git-master-kshitizrajan7s-projects.vercel.app/",
+        github:"https://kshitizrajan7.github.io/todolist/",
         webapp:"zxc",
         // member:[
         //     {
