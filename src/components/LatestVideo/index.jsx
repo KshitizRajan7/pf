@@ -38,7 +38,7 @@ const LatestVideo = () => {
       <ReactPlayerComponent>
       <ReactPlayer
         controls={true} 
-        url="https://youtu.be/xoACEczmON0?si=C9MHkhpknufmTfkN"
+        url="https://youtu.be/yjbL2Cjg3XI?si=RVnira63G-tcBKox"
       />
       </ReactPlayerComponent>
     </Container>
