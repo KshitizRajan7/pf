@@ -3,6 +3,9 @@ import html from '../../src/assets/HTML.png'
 import css from '../../src/assets/css.png'
 import bootstrap from '../../src/assets/bootstrap.png'
 import js from '../../src/assets/js.png'
+import nextjs from '../../src/assets/nextjs.png'
+import tailwindcss from '../../src/assets/tailwind.png'
+import typescript from '../../src/assets/typescript.png'
 import weatherapp from '../../src/assets/weatherapp.png'
 import calculatorapp from '../../src/assets/calculatorapp.png'
 import cartapp from '../../src/assets/cartapp.png'
@@ -46,22 +49,21 @@ export const skills=[
                 image:reactjs
             },
             {
-                name: "HTML",
-                image:html
+                name: "NextJS",
+                image:nextjs
             },
             {
-                name: "CSS",
-                image:css
+                name: "TypeScript",
+                image:typescript
+            },
+            {
+                name: "Tailwind CSS",
+                image:tailwindcss
             },
             {
                 name:"Bootstrap",
                 image:bootstrap
-            },
-            {
-                name:"JavaScript",
-                image:js
             }
-
         ]
 
     },
@@ -297,7 +299,7 @@ export const education =[
     {
         id:1,
         img:puLogo,
-        school:"Puranchal University Faculty of Science and Technology",
+        school:"Purbanchal University Faculty of Science and Technology",
         date:"running",
         grade:"#",
         desc:"Its all about the deep research of Informtion Technology",
